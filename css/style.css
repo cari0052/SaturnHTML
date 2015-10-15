@@ -36,7 +36,7 @@ body {
 
 h1 {
   color: #eee;
-  background: #ddd url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg) no-repeat;
+  background: #ddd url(../img/saturn.v1.jpg) no-repeat;
     background-size:cover;
   width: auto;
   height: auto;
