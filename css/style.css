@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*****************************
+Colours
+main background: #222;
+content background:#444;
+footer background: #333;
+borders on header and main: #666;
+main text: #d4d4d4;
+header text: #eee;
+footer text: #999;
+anchor text: gold;
+anchor hover: #fff;
+text shadows - #000 (bottom right) and gold (top left)
+
+Fonts
+'Helvetica Neue', Calibri, Verdana, sans-serif;
+
+Images
+http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
+******************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica Neue, Calibri, Verdana, sans-serif;
+}
+
+html,
+body {
+  font-size: 2.5vh;
+  /* default font-size = 1.0rem */
+  
+  background-color: #222;
+}
+
+h1 {
+  color: #eee;
+  background: #ddd url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg) no-repeat 50% 50%;
+  width: auto;
+  height: auto;
+  padding: 1rem;
+  margin: 0 rem;
+  line-height: 10rem
+}
+
+h3 {
+  font-size: 40px;
+  padding: 0 2rem;
+  background: #444;
+  background:linear-gradient(to bottom, #666 0%,#666 50%,#000000 50%,#444 50%,#444 100%);
+  
+}
+
+p {
+  text-align: left;
+  background-color: #444;
+  font-size: 1rem;
+  padding: 0 2rem 2rem;
+  line-height: 2rem;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: gold;
+  display: block;
+  text-align: center;
+  background-color: #444;
+  margin: 0.5rem 0 -1rem;
+  padding: 1.0rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+nav a:hover,
+nav a:active {
+  float: center;
+  color: #fff;
+}
+
+nav ul {
+  line-height: 0.5px;
+}
+
+nav li {
+  float: left;
+  width: 20%;
+}
+
+#wrapper {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  line-height: 5rem;
+  font-size: 0rem;
+}
+
+#masthead {
+  line-height: 3rem;
+  font-size: 40px;
+  text-shadow: 2px 2px #000, 0 0 5px gold;
+}
+
+#main {
+  background-color: #222;
+  color: #d4d4d4;
+}
+
+#footer {}
+
+#footer p {
+  background-color: #333;
+  color: #999;
+  padding: 2rem
+}
+
+#footer a {
+  color: gold;
+  background-color: #333;
+}
