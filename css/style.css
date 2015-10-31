@@ -37,12 +37,12 @@ body {
 h1 {
   color: #eee;
   background: #ddd url(../img/saturn.v1.jpg) no-repeat;
-    background-size:cover;
+  background-size:cover;
   width: auto;
   height: auto;
   padding: 1rem;
   margin: 0 rem;
-  line-height: 10rem
+  line-height: 10rem;
 }
 
 h3 {
